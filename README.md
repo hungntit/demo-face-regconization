@@ -3,7 +3,8 @@
 Read more at https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html
 ## Verify SES Sandbox email 
  Open aws SES service in US-EAST-1 zone , verify sender email and receiver email
-Create Collection
+
+## Create Rekognition Collection
 ```
 aws rekognition create-collection --collection-id demo-face-regconize
 ```
