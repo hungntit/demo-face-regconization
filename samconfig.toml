@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "demo-face-regconize"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-14zx7uvir88m7"
+s3_prefix = "demo-face-regconize"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "CollectionId=demo-face-regconize SenderEmail=hungnt.it@gmail.com ReceiverEmail=hungnt.it@gmail.com"
+
