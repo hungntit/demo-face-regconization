@@ -5,9 +5,9 @@ Read more at https://docs.aws.amazon.com/serverless-application-model/latest/dev
  Open aws SES service in US-EAST-1 zone , verify sender email and receiver email
 Create Collection
 ```
-aws rekognition create-collection --collection-id demo-face-regconize --region ap-southeast-2
+aws rekognition create-collection --collection-id demo-face-regconize
 ```
-Deploy:
+## Deploy:
 ```
 sam build
 sam deploy --guided
